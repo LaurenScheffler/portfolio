@@ -1,0 +1,1 @@
+I am a content and web professional with experience in advertising and content creation for both print and online formats. This is a culmination of my work and experiences in this industry. Thank you for your time. 
