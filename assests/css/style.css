@@ -14,12 +14,57 @@ body, html {
   position: relative;
 }
 
+/* Google Font: Days One embed code */
 .days-one-regular {
     font-family: "Days One", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
+
+  /* Name Logo */
+  .logo {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+
+  /* Name Logo Button Code */
+  .button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Navbar Buttons */
+  .button2 {
+    display: inline-block;
+    padding: 0.5em 1.7em;
+    margin: 0 0.1em 0.1em 0;
+    border: 0.16em soild white;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Days One";
+    font-weight: 300;
+    color: white;
+    text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
+    text-align: center;
+    transition: all 0.2s;
+    background-color: black;
+  }
+
+  /* Navbar Buttons hover */
+  .button2:hover {
+    color: black;
+    background-color: white;
+  }
   
+  /* small screens responsiveness */
   @media (max-width:992px) {
     
     .display-middle{
