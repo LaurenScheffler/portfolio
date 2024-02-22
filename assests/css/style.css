@@ -12,6 +12,7 @@ body, html {
 
 .display-container {
   position: relative;
+ 
 }
 
 /* Google Font: Days One embed code */
@@ -77,6 +78,7 @@ body, html {
   }
 
   .display-middle{
+    
     position:absolute;
     top:50%;
     left:50%;
@@ -84,15 +86,62 @@ body, html {
     -ms-transform:translate(-50%,-50%)
 
 }
+
+  .image {
+    align-items: center;
+  }
   
   /* small screens responsiveness */
-  @media (max-width:992px) {
+  @media (max-width: 600px) {
+
+    .display-middle {
+      width: 100%;
+    position:absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      -ms-transform:translate(-50%,-50%)}
+
+      .image {
+        align-items: center;
+        width: 75%;
+        height: 75%;
+      }
+  }
+
+  /*tablet screen responsiveness */
+  @media (min-width:601px) {
     
     .display-middle{
+      width: 100%;
       position:absolute;
       top:50%;
       left:50%;
       transform:translate(-50%,-50%);
       -ms-transform:translate(-50%,-50%)}
 
+      .image {
+        align-items: center;
+        width: 75%;
+        height: 75%;
+      }
+
+  }
+
+  /* any screens larger than a tablet */
+  @media (min-width: 768px) {
+
+    .display-middle {
+    width: 50%;
+    position:absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      -ms-transform:translate(-50%,-50%)}
+
+      .image {
+        align-items: center;
+        width: 75%;
+        height: 75%;
+      }
   }
