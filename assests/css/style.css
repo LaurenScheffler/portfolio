@@ -63,6 +63,27 @@ body, html {
     color: black;
     background-color: white;
   }
+
+  .center {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text {
+    text-align: center;
+
+  }
+
+  .display-middle{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%)
+
+}
   
   /* small screens responsiveness */
   @media (max-width:992px) {
