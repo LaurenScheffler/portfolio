@@ -10,6 +10,10 @@ body, html {
   background-position: center;
   }
 
+  hr {
+    border-color: #e38fff;
+  }
+
 .display-container {
   position: relative;
  
