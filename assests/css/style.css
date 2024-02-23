@@ -95,6 +95,31 @@ body, html {
     align-items: center;
   }
   
+  .name {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .school {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .work {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
   /* small screens responsiveness */
   @media (max-width: 600px) {
 
@@ -112,6 +137,13 @@ body, html {
         height: 75%;
       }
 
+      .about-middle {
+        position: absolute;
+        width: 75%;
+        width: 70%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        -ms-transform:translate(-50%,-50%)}
   }
 
   /*tablet screen responsiveness */
@@ -131,6 +163,13 @@ body, html {
         height: 75%;
       }
 
+      .about-middle {
+        position: relative;
+        width: 75%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        -ms-transform:translate(-50%,-50%)}
+
   }
 
   /* any screens larger than a tablet */
@@ -149,4 +188,11 @@ body, html {
         width: 50%;
         height: 50%;
       }
+
+      .about-middle {
+        position: relative;
+        width: 75%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        -ms-transform:translate(-50%,-50%)}
   }
