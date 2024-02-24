@@ -113,9 +113,7 @@ body, html {
     justify-content: center;
   }
 
-  .work {
-    text-align: center;
-  }
+  
   
   /* small screens responsiveness */
   @media (max-width: 600px) {
@@ -138,6 +136,10 @@ body, html {
         position: relative;
         width: 75%;
         left: 15%;
+      }
+
+      .work {
+        text-align: center;
       }
   }
 
