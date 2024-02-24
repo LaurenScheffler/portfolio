@@ -200,4 +200,11 @@ body, html {
           display: inline-block; 
           text-align: left;
         }
+  .display-image {
+    width: 50%;
+    position: relative;
+    top: 50%;
+    left: 25%;
+
   }
+      }
